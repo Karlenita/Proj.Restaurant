@@ -1,0 +1,39 @@
+
+.about_us body{
+    background-color: rgb(221, 221, 62);
+    border: black solid 20px;
+    animation-name: flash;
+    animation-duration: 4s;
+}
+
+@keyframes flash {
+    from {background-color: yellow;}
+    to {background-color: yellowgreen;}
+}
+
+.about_us h2 {
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    font-size: 150%;
+    text-align: center;
+}
+
+.about_us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16 px;
+    text-align: justify;
+    padding-left: 10px;
+}   
+
+.signature {
+    font-family: 'Square Peg', cursive;
+}
+
+.about_us iframe {
+    float:right;
+    box-shadow: 20p;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
